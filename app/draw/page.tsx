@@ -168,7 +168,7 @@ export default function Page() {
                         I implemented a simple neural network to identify
                         handwritten digits using the MNIST dataset. All
                         necessary algorithms, like stochastic gradient decent
-                        and back propagation, where implemented with just python
+                        and back propagation, were implemented with just python
                         and numpy.
                     </p>
                 </div>
