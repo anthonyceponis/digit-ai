@@ -23,3 +23,16 @@ I also made a simple web app using next.js to see the ai in action.
 ### Preview
 
 <img src="./digit-ai.gif" width="500px" />
+
+### Local seutp
+1. Clone the repo
+2. `cd frontend`
+3. `npm i` to insteall dependencies.
+4. `npm run dev` to start the web app.
+5. `cd ../ai`
+6. `python3 -m venv myenv` to create a virtual environment.
+7. `source myenv/bin/activate` to activate the venv.
+8. `pip install -r requirements.txt` to install dependencies
+9. `python3 api.py` to start the api.
+10. Then make a call to the `/api/train` endpoint to train the model (will take around 5 mins, so go put the kettle on).
+11. Once you get a successful response, you can start using the webapp.
